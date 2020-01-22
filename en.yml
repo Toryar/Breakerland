@@ -268,14 +268,13 @@ skill:
       donne &e%amount% &3dégats à votre cible.
       Pendant que vous portez votre cible,
       tous les dégâts entrants sont réduits de 50%
-    active-ready-message: '&3*Vous êtes prêt* Frappez votre cible pour porter et lancer
-      le'
+    active-ready-message: '&3*Vous êtes prêt* Frappez votre cible pour pouvoir le pousser !'
     active-notready-message: '&7*Vous abaissez vos bras*'
     active-activated-message: '&3&lVous attrapez votre adversaire au-dessus de votre tête!'
     active-throw-message-countdown: '&c&lAIM! Lancer votre adversaire dans une direction
        dans %countdown%'
-    active-throw-success: '&3&lJete la cible à l emplacement!'
-    aegis-success: '&3Votre bouclier égide bloque l attaque!'
+    active-throw-success: '&3&lJette la cible à l''emplacement!'
+    aegis-success: '&3Votre bouclier égide bloque l''attaque!'
   arbalist:
     name: Arbalétriers
     description: |-
@@ -339,38 +338,37 @@ skill:
     minions-msg: '&cVous créer vos sbires.'
     firecrossbow: |-
       &3Tire une flèche sur ton ennemi
-      par poinçonnage. N utilise pas de flèches,
-      et utilise plutôt l énergie.
+      par poinçonnage. N''utilise pas de flèches,
+      et utilise plutôt l''énergie.
       évoluer pour réduire le temps de recharge.
     activation-msg: '&3Flèche lancée!'
   vampire:
     name: Vampire
     description: |-
-      &3Vampires are majestic
-      yet horrible demons,
-      with the uncanny abilities
-      of regeneration and stealth.
+      &3Les Vampires sont des créatures
+      magiques et ont des airs de démons,
+      avec d''étranges capacitées de
+      régénération et de furtivité.
 
-      &e&lStrength
-      &2Attacks can deplete your opponent of Mana,
-      and you also have many healing
-      abilities of your own.
+      &e&lForce
+      &2Vos attaques peuvent absorber la,
+      mana de vos adversaires, et vous possèdez
+      également des capacitées de guérison.
 
-      &e&lWeakness
-      &cVampires are all rounded,
-      but can be outpaced by
-      targets with high mobility.
-    bloodlust-title: '&6Blood Lust'
-    bloodwell-title: '&6Blood Well'
-    bleed-title: '&6Bleed'
-    eternaldarkness-title: '&6Eternal Darkness'
+      &e&lFaiblesse
+      &cLes vampires sont faible
+      face aux ennemis rapides.
+    bloodlust-title: '&6Soif de sang'
+    bloodwell-title: '&6Puits de sang'
+    bleed-title: '&6Saignement'
+    eternaldarkness-title: '&6Obscurité Éternelle'
     passive: |-
-      &3Attacking gives you 3
-      blood per hit. For every
-      2 blood you have, deal an additional
-      &e%amount%% &3melee damage to your targets.
-      Blood levels drop by &e(1+10%)
-      &3every 4 seconds.
+      &3Attaquer vous donne 3
+      sang par coup. Tous les 2
+      sang obtenus, inflige 
+      &e%amount%% &3de dégat supplémentaire.
+      Le sang obtenus baisse de &e(1+10%)
+      &3toutes les 4 secondes.
     bloodlust: "&3Level 1: If you have more than 70% of\nyour blood well full, go\
       \ into a frenzy,\nallowing you to deal\n&e%amount%% &3more damage than usual\n\
       \nLevel 2: Your natural health regeneration is\ntripled during this time. \n\
